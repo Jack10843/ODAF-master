@@ -1,5 +1,6 @@
-# Code for paper 'Beyond Non-Expert Demonstrations: Outcome-Driven Action Con-
-straint for Offline Reinforcement Learning'
+# Code for paper 'Beyond Non-Expert Demonstrations: Outcome-Driven Action Constraint for Offline Reinforcement Learning'
+
+This is an experimental demo based on YangRui2015's [RORL](https://github.com/YangRui2015/RORL) project.
 
 ## 1. Requirements
 
@@ -24,6 +25,3 @@ python -m scripts.sac --env_name [ENVIRONMENT] --num_qs 10 --norm_input --load_c
 ```bash
 python -m scripts.sac --env_name [ENVIRONMENT] --num_qs 10 --norm_input --eval_no_training --load_path [model path] --exp_prefix eval_RORL
 ```
-
-
-The project is based on YangRui2015's [RORL](https://github.com/YangRui2015/RORL) project.
