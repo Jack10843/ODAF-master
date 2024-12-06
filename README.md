@@ -25,3 +25,5 @@ python -m scripts.sac --env_name [ENVIRONMENT] --num_qs 10 --norm_input --load_c
 ```bash
 python -m scripts.sac --env_name [ENVIRONMENT] --num_qs 10 --norm_input --eval_no_training --load_path [model path] --exp_prefix eval_RORL
 ```
+
+# Code for other experiments will be released later.
